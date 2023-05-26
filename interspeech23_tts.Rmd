@@ -1,0 +1,142 @@
+---
+title: "Synthesis after a couple PINTs: Investigating the Role of Pause-Internal Phonetic Particles in Speech Synthesis and Perception"
+author: "Mikey Elmers, Johannah O’Mahony, Éva Székely"
+date: "Interspeech 2023"
+output:
+  html_document:
+    output_file: 'docs/my.html'
+---
+# Introduction
+
+This repository contains the supplementary material for the conference paper titled "Synthesis after a couple PINTs: Investigating the Role of Pause-Internal Phonetic Particles in Speech Synthesis and Perception".
+
+# TTS Comparison
+Below are five sentences in three different conditions, the natural and two text-to-speech conditions, ControlledPINT and AutoPINT.
+
+## Natural
+
+<audio controls style="float: left; width: 19.5%; margin-right: 2.5px; margin-bottom: 50px;"> <source src="audio/ttscomp/NAT1.wav" type="audio/wav"> </audio>
+
+<audio controls style="float: left; width: 19.5%; margin-right: 2.5px; margin-bottom: 50px;"> <source src="audio/ttscomp/NAT2.wav" type="audio/wav"> </audio>
+
+<audio controls style="float: left; width: 19.5%; margin-right: 2.5px; margin-bottom: 50px;"> <source src="audio/ttscomp/NAT3.wav" type="audio/wav"> </audio>
+
+<audio controls style="float: left; width: 19.5%; margin-right: 2.5px; margin-bottom: 50px;"> <source src="audio/ttscomp/NAT4.wav" type="audio/wav"> </audio>
+
+<audio controls style="float: left; width: 19.5%; margin-bottom: 50px;"> <source src="audio/ttscomp/NAT5.wav" type="audio/wav"> </audio>
+
+<br>
+
+## ControlledPINT
+
+<audio controls style="float: left; width: 19.5%; margin-right: 2.5px; margin-bottom: 50px;"> <source src="audio/ttscomp/CONT1.wav" type="audio/wav"> </audio>
+
+<audio controls style="float: left; width: 19.5%; margin-right: 2.5px; margin-bottom: 50px;"> <source src="audio/ttscomp/CONT2.wav" type="audio/wav"> </audio>
+
+<audio controls style="float: left; width: 19.5%; margin-right: 2.5px; margin-bottom: 50px;"> <source src="audio/ttscomp/CONT3.wav" type="audio/wav"> </audio>
+
+<audio controls style="float: left; width: 19.5%; margin-right: 2.5px; margin-bottom: 50px;"> <source src="audio/ttscomp/CONT4.wav" type="audio/wav"> </audio>
+
+<audio controls style="float: left; width: 19.5%; margin-bottom: 50px;"> <source src="audio/ttscomp/CONT5.wav" type="audio/wav"> </audio>
+
+## AutoPINT
+<audio controls style="float: left; width: 19.5%; margin-right: 2.5px; margin-bottom: 50px;"> <source src="audio/ttscomp/AUTO1.wav" type="audio/wav"> </audio>
+
+<audio controls style="float: left; width: 19.5%; margin-right: 2.5px; margin-bottom: 50px;"> <source src="audio/ttscomp/AUTO2.wav" type="audio/wav"> </audio>
+
+<audio controls style="float: left; width: 19.5%; margin-right: 2.5px; margin-bottom: 50px;"> <source src="audio/ttscomp/AUTO3.wav" type="audio/wav"> </audio>
+
+<audio controls style="float: left; width: 19.5%; margin-right: 2.5px; margin-bottom: 50px;"> <source src="audio/ttscomp/AUTO4.wav" type="audio/wav"> </audio>
+
+<audio controls style="float: left; width: 19.5%; margin-bottom: 50px;"> <source src="audio/ttscomp/AUTO5.wav" type="audio/wav"> </audio>
+
+# Perceptual Experiment
+This experiment evaluated 10 sentences in 4 conditions: PINTsless, long silence, filler particle, and combinatory.
+
+## PINTsless
+
+<audio controls style="float: left; width: 19.5%; margin-right: 2.5px; margin-bottom: 5px;"> <source src="audio/perceptualexp/f_balance.wav" type="audio/wav"> </audio>
+
+<audio controls style="float: left; width: 19.5%; margin-right: 2.5px; margin-bottom: 5px;"> <source src="audio/perceptualexp/f_drama.wav" type="audio/wav"> </audio>
+
+<audio controls style="float: left; width: 19.5%; margin-right: 2.5px; margin-bottom: 5px;"> <source src="audio/perceptualexp/f_dynamic.wav" type="audio/wav"> </audio>
+
+<audio controls style="float: left; width: 19.5%; margin-right: 2.5px; margin-bottom: 5px;"> <source src="audio/perceptualexp/f_elegant.wav" type="audio/wav"> </audio>
+
+<audio controls style="float: left; width: 19.5%; margin-bottom: 5px;"> <source src="audio/perceptualexp/f_imagination.wav" type="audio/wav"> </audio>
+
+<audio controls style="float: left; width: 19.5%; margin-right: 2.5px; margin-bottom: 50px;"> <source src="audio/perceptualexp/f_liveliness.wav" type="audio/wav"> </audio>
+
+<audio controls style="float: left; width: 19.5%; margin-right: 2.5px; margin-bottom: 50px;"> <source src="audio/perceptualexp/f_serene.wav" type="audio/wav"> </audio>
+
+<audio controls style="float: left; width: 19.5%; margin-right: 2.5px; margin-bottom: 50px;"> <source src="audio/perceptualexp/f_tension.wav" type="audio/wav"> </audio>
+
+<audio controls style="float: left; width: 19.5%; margin-right: 2.5px; margin-bottom: 50px;"> <source src="audio/perceptualexp/f_texture.wav" type="audio/wav"> </audio>
+
+<audio controls style="float: left; width: 19.5%; margin-bottom: 50px;"> <source src="audio/perceptualexp/f_vintage.wav" type="audio/wav"> </audio>
+
+## Long silence
+
+<audio controls style="float: left; width: 19.5%; margin-right: 2.5px; margin-bottom: 5px;"> <source src="audio/perceptualexp/s_balance.wav" type="audio/wav"> </audio>
+
+<audio controls style="float: left; width: 19.5%; margin-right: 2.5px; margin-bottom: 5px;"> <source src="audio/perceptualexp/s_drama.wav" type="audio/wav"> </audio>
+
+<audio controls style="float: left; width: 19.5%; margin-right: 2.5px; margin-bottom: 5px;"> <source src="audio/perceptualexp/s_dynamic.wav" type="audio/wav"> </audio>
+
+<audio controls style="float: left; width: 19.5%; margin-right: 2.5px; margin-bottom: 5px;"> <source src="audio/perceptualexp/s_elegant.wav" type="audio/wav"> </audio>
+
+<audio controls style="float: left; width: 19.5%; margin-bottom: 5px;"> <source src="audio/perceptualexp/s_imagination.wav" type="audio/wav"> </audio>
+
+<audio controls style="float: left; width: 19.5%; margin-right: 2.5px; margin-bottom: 50px;"> <source src="audio/perceptualexp/s_liveliness.wav" type="audio/wav"> </audio>
+
+<audio controls style="float: left; width: 19.5%; margin-right: 2.5px; margin-bottom: 50px;"> <source src="audio/perceptualexp/s_serene.wav" type="audio/wav"> </audio>
+
+<audio controls style="float: left; width: 19.5%; margin-right: 2.5px; margin-bottom: 50px;"> <source src="audio/perceptualexp/s_tension.wav" type="audio/wav"> </audio>
+
+<audio controls style="float: left; width: 19.5%; margin-right: 2.5px; margin-bottom: 50px;"> <source src="audio/perceptualexp/s_texture.wav" type="audio/wav"> </audio>
+
+<audio controls style="float: left; width: 19.5%; margin-bottom: 50px;"> <source src="audio/perceptualexp/s_vintage.wav" type="audio/wav"> </audio>
+
+## Filler particle
+
+<audio controls style="float: left; width: 19.5%; margin-right: 2.5px; margin-bottom: 5px;"> <source src="audio/perceptualexp/u_balance.wav" type="audio/wav"> </audio>
+
+<audio controls style="float: left; width: 19.5%; margin-right: 2.5px; margin-bottom: 5px;"> <source src="audio/perceptualexp/u_drama.wav" type="audio/wav"> </audio>
+
+<audio controls style="float: left; width: 19.5%; margin-right: 2.5px; margin-bottom: 5px;"> <source src="audio/perceptualexp/u_dynamic.wav" type="audio/wav"> </audio>
+
+<audio controls style="float: left; width: 19.5%; margin-right: 2.5px; margin-bottom: 5px;"> <source src="audio/perceptualexp/u_elegant.wav" type="audio/wav"> </audio>
+
+<audio controls style="float: left; width: 19.5%; margin-bottom: 5px;"> <source src="audio/perceptualexp/u_imagination.wav" type="audio/wav"> </audio>
+
+<audio controls style="float: left; width: 19.5%; margin-right: 2.5px; margin-bottom: 50px;"> <source src="audio/perceptualexp/u_liveliness.wav" type="audio/wav"> </audio>
+
+<audio controls style="float: left; width: 19.5%; margin-right: 2.5px; margin-bottom: 50px;"> <source src="audio/perceptualexp/u_serene.wav" type="audio/wav"> </audio>
+
+<audio controls style="float: left; width: 19.5%; margin-right: 2.5px; margin-bottom: 50px;"> <source src="audio/perceptualexp/u_tension.wav" type="audio/wav"> </audio>
+
+<audio controls style="float: left; width: 19.5%; margin-right: 2.5px; margin-bottom: 50px;"> <source src="audio/perceptualexp/u_texture.wav" type="audio/wav"> </audio>
+
+<audio controls style="float: left; width: 19.5%; margin-bottom: 50px;"> <source src="audio/perceptualexp/u_vintage.wav" type="audio/wav"> </audio>
+
+## Combinatory
+
+<audio controls style="float: left; width: 19.5%; margin-right: 2.5px; margin-bottom: 5px;"> <source src="audio/perceptualexp/c_balance.wav" type="audio/wav"> </audio>
+
+<audio controls style="float: left; width: 19.5%; margin-right: 2.5px; margin-bottom: 5px;"> <source src="audio/perceptualexp/c_drama.wav" type="audio/wav"> </audio>
+
+<audio controls style="float: left; width: 19.5%; margin-right: 2.5px; margin-bottom: 5px;"> <source src="audio/perceptualexp/c_dynamic.wav" type="audio/wav"> </audio>
+
+<audio controls style="float: left; width: 19.5%; margin-right: 2.5px; margin-bottom: 5px;"> <source src="audio/perceptualexp/c_elegant.wav" type="audio/wav"> </audio>
+
+<audio controls style="float: left; width: 19.5%; margin-bottom: 5px;"> <source src="audio/perceptualexp/c_imagination.wav" type="audio/wav"> </audio>
+
+<audio controls style="float: left; width: 19.5%; margin-right: 2.5px; margin-bottom: 50px;"> <source src="audio/perceptualexp/c_liveliness.wav" type="audio/wav"> </audio>
+
+<audio controls style="float: left; width: 19.5%; margin-right: 2.5px; margin-bottom: 50px;"> <source src="audio/perceptualexp/c_serene.wav" type="audio/wav"> </audio>
+
+<audio controls style="float: left; width: 19.5%; margin-right: 2.5px; margin-bottom: 50px;"> <source src="audio/perceptualexp/c_tension.wav" type="audio/wav"> </audio>
+
+<audio controls style="float: left; width: 19.5%; margin-right: 2.5px; margin-bottom: 50px;"> <source src="audio/perceptualexp/c_texture.wav" type="audio/wav"> </audio>
+
+<audio controls style="float: left; width: 19.5%; margin-bottom: 50px;"> <source src="audio/perceptualexp/c_vintage.wav" type="audio/wav"> </audio>
